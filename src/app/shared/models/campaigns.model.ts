@@ -30,10 +30,25 @@ export const Campaigns = [
         interfaces: [
         ],
       },
+      {
+        index: '4', // orpg\src\campaigns\TEST\logs 폴더 내에 있는 html 파일 이름
+        name: '최종화', // 저장소에서 표시할 파일 이름
+        images: [
+        ],
+        interfaces: [
+        ],
+      },
     ]
   },
-];
-
+  {
+    title: 'TEST', // orpg\src\campaigns에서 세션 로그가 들어있는 폴더 이름
+    label: '마감비아 마법대학의 마법사들', // 저장소에서 표시할 캠페인 이름
+    platform: 'FVTT', // 롤20이면 "roll20", FVTT면 "FVTT"
+    npcs: [
+    ],
+    logs: [ ]
+    },
+]
 export interface Campaign {
   title: string;
   label: string;
