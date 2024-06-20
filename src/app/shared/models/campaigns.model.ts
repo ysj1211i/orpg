@@ -46,8 +46,17 @@ export const Campaigns = [
     platform: 'FVTT', // 롤20이면 "roll20", FVTT면 "FVTT"
     npcs: [
     ],
-    logs: [ ]
-    },
+    logs: [
+      {
+        index: '5', // orpg\src\campaigns\TEST\logs 폴더 내에 있는 html 파일 이름
+        name: '0화', // 저장소에서 표시할 파일 이름
+        images: [
+        ],
+        interfaces: [
+        ],
+      },
+    ]
+  },
 ]
 export interface Campaign {
   title: string;
