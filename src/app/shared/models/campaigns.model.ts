@@ -150,6 +150,31 @@ export const Campaigns = [
       interfaces: [
       ],
     },
+    {
+      index: '23', // orpg\src\campaigns\TEST\logs 폴더 내에 있는 html 파일 이름
+      name: '18화', // 저장소에서 표시할 파일 이름
+      images: [
+      ],
+      interfaces: [
+      ],
+    },  
+  ]
+},
+{
+  title: 'TEST', // orpg\src\campaigns에서 세션 로그가 들어있는 폴더 이름
+  label: '마감비아 외전', // 저장소에서 표시할 캠페인 이름
+  platform: 'FVTT', // 롤20이면 "roll20", FVTT면 "FVTT"
+  npcs: [
+  ],
+  logs: [
+    {
+      index: '24', // orpg\src\campaigns\TEST\logs 폴더 내에 있는 html 파일 이름
+      name: '가장 빛나던 날', // 저장소에서 표시할 파일 이름
+      images: [
+      ],
+      interfaces: [
+      ],
+    },
   ]
 },
   {
