@@ -238,6 +238,14 @@ export const Campaigns = [
       interfaces: [
       ],
     },  
+        {
+      index: '35', // orpg\src\campaigns\TEST\logs 폴더 내에 있는 html 파일 이름
+      name: '29화', // 저장소에서 표시할 파일 이름
+      images: [
+      ],
+      interfaces: [
+      ],
+    },  
   ]
 },{
   title: 'TEST', // orpg\src\campaigns에서 세션 로그가 들어있는 폴더 이름
